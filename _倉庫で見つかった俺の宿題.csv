@@ -1,0 +1,25 @@
+q,a1,a2,a3,a4
+"If A has an eigen value L and B has an eigen vector x w.r.t. the eigen
+value m, then ABx = Lmx.",False,True,_,_
+"If L is an eigen value of A and m is an eigen value of B, then Lm is an
+eigen value of AB.",False,True,_,_
+The eigen values of A equal to the eigen values of A^{T}.,False,True,_,_
+"If A has an eigen value 0, then A is singular.",False,True,_,_
+"If A has distinct eigen values, then A is diagonalizable.",False,True,_,_
+"If A has repeated eigen values, then A is not diagonalizable.",False,True,_,_
+"Suppose A is a 3 by 3 matrix with eigen values 1, 2 and 4. Please compute
+the trace of A^{2}.",0,21,12,7
+"Suppose A is a 3 by 3 matrix with eigen values 1, 2 and 4. Please compute
+the eigen values of A^{-1}.",2 4 8,1 1/2 1/4,1 2 4,1/2 1/4 1/8
+"Suppose A is a 3 by 3 matrix with eigen values 1, 2 and 4. Please compute
+the eigen values of (A^{2} + I)^{-1}.",1 1/2 1/4,1 2 4,1/2 1/5 1/17,2 5 17
+"Let A be a 2 by 2 matrix. If tr(A) = 7 and det(A) = 12, what are the eigen
+values of A.",3 4,7 12,(7 + 12i) (12 + 7i),(3 + 4i) (4 + 3i)
+"A = [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], find the
+eigen values of A - I.",0 0 0 0,-1 -1 -1 3,1 1 1 1,-3 1 1 1
+"A = [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], find the
+determinant of A - I.",-3,0,5,1
+"If a_{0} = 2, a_{1} = 3 and a_{n + 1} = 3a_{n} - 2a_{n - 1}, for all
+a >= 1, find the formula for a_{n}.",a_{n} = 3^{n} + 1,a_{n} = 3^{n} + 2,a_{n} = 2^{n} + 1,a_{n} = 2^{n} + 3
+"Find the eigen value of [[2, 1, 1, 1, 1, 1], [2, 3, 2, 2, 2, 2], [3, 3,
+4, 3, 3, 3], [4, 4, 4, 5, 4, 4], [5, 5, 5, 5, 6, 5], [6, 6, 6, 6, 6, 7]].",3 12 16 19 25 59,1 2 3 4 5 6,1 1 1 1 1 22,0 0 0 0 0 0

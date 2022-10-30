@@ -1,0 +1,19 @@
+q,a1,a2,a3,a4
+r'^hello world$',^hello world$,hello world,HELLO_WORLD,^$
+r'^\xab\solute wi\sh$',abolute wih,« olute wi h,xabsolute wish,& olute wi h
+r'^https://twitter.com/home$',com/home,twitter.com,https://twitterOcom/home,https://twitter.com
+r'^[sqc]$',Q,sqc,[sqc],q
+r'^(boiled|wotah)$',boiled|wotah,boiled_wotah,boiledwotah,wotah
+r'^python*2$',pythonpython,python*2,pythonn,pytho2
+r'^encounter+$',encounter+$,encounter,encounteR,encounter+
+r'^\Distorte\d P[a-i]n$',\Distorte\d Pin,0istorted Pan,Distorte2 Pen,Distorte1 P-n
+r'^(?!Sonic) (?#Mania)$',!Sonic #Mania,?#Mania,,Sonic
+"r'^GYA{2,5}R$'",GYAAAAR,GYAR,GYAAAAAAAAR,GYA2R
+r'^[^django]$',d,django,Flask,^
+"r'^[linux]{3,4}$'",linux4,unix,linux,u
+r'^[OH][^MY][JULIET.]$',Hey,Hi.,HM.,OMG
+r'^Java.+$',I love Java,Oak,Java,JavaScript
+r'^c+[+]$',c+[+],c++,c,cccc+
+r'^$',,,,
+r'^$',,,,
+r'^$',,,,
